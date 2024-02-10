@@ -1,3 +1,9 @@
+import FullCalendar from '../components/fullcalendar'
 export default function Page() {
-    return <p>Dashboard Page</p>;
+    return (
+    <div>
+<FullCalendar/>
+
+    </div>
+    )
   }
